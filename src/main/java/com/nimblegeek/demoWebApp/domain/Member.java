@@ -12,13 +12,17 @@ public class Member {
     private String name;
     private String email;
 
-    public Member() {
+    public Member(String name, String s) {
     }
 
     public Member(long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
+    }
+
+    public Member() {
+
     }
 
     public Long getId() {

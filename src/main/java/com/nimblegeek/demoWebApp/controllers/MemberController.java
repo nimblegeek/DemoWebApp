@@ -10,8 +10,6 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:4200")
 public class MemberController {
 
-    // standard constructors
-
     private MemberRepository memberRepository;
 
     @GetMapping("/member")
