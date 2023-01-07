@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   title: string;
+  clubs: any;
 
   constructor() {
     this.title = 'Spring - Angular - DemoWebApp';

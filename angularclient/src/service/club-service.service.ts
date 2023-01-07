@@ -16,7 +16,7 @@ export class ClubService {
     return this.http.get<Club[]>(this.clubsUrl);
   }
 
-  public save(user: Club) {
-    return this.http.post<Club>(this.clubsUrl, user);
+  public save(club: Club) {
+    return this.http.post<Club>(this.clubsUrl, club);
   }
 }
