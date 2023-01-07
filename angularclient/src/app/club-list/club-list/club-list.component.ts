@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Club } from '../model/club';
-import { UserService } from '../service/club.service';
+import { ClubService } from '../service/club.service';
 
 @Component({
   selector: 'app-club-list',
@@ -11,7 +11,7 @@ export class ClubListComponent implements OnInit {
 
   clubs: Club[];
 
-  constructor(private userService: UserService) {
+  constructor(private clubService: ClubService) {
   }
 
   ngOnInit() {

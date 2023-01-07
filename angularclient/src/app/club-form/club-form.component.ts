@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { UserService } from '../service/club.service';
 import { Club } from '../model/club';
+import {ClubService} from "../../service/club-service.service";
 
 @Component({
   selector: 'app-club-form',
@@ -15,7 +15,7 @@ export class ClubFormComponent {
   constructor(
     private route: ActivatedRoute,
     private router: Router,
-    private userService: UserService) {
+    private clubService: ClubService) {
     this.club = new Club();
   }
 
