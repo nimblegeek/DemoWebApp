@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Club } from '../model/club';
-import {ClubService} from "../../service/club-service.service";
+import {ClubService} from "../../service/club.service";
 
 @Component({
   selector: 'app-club-form',

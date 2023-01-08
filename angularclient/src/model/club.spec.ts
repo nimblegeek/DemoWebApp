@@ -1,6 +1,6 @@
 import { Club } from './club';
 
-describe('User', () => {
+describe('Club', () => {
   it('should create an instance', () => {
     expect(new Club()).toBeTruthy();
   });
