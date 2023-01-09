@@ -8,21 +8,18 @@ public class Club {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private final String name;
+    private final String email;
 
-    private String name;
-    private String email;
-
-    public Club(String name, String s) {
+    public Club() {
+        this.name = "";
+        this.email = "";
     }
 
     public Club(long id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
-    }
-
-    public Club() {
-
     }
 
     public Long getId() {
@@ -37,16 +34,8 @@ public class Club {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getEmail() {
         return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
     }
 
     @Override

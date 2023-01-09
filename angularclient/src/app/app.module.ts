@@ -4,9 +4,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
-import {ClubListComponent} from "./club-list/club-list/club-list.component";
+import {ClubListComponent} from "./club-list/club-list.component";
 import {ClubFormComponent} from "./club-form/club-form.component";
-import {ClubService} from "../service/club.service";
+import {ClubService} from "./service/club.service";
 
 @NgModule({
   declarations: [
