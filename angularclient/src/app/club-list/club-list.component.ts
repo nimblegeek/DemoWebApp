@@ -9,13 +9,13 @@ import { ClubService } from '../service/club.service';
 })
 export class ClubListComponent implements OnInit {
 
-  clubs: Club[];
+  clubs: Club[] = [];
 
   constructor(private clubService: ClubService) {
   }
 
   ngOnInit() {
-    this.clubService.findAll().subscribe(data => {
+    this.clubService.findAll().subscribe((data: Club[]) => {
       this.clubs = data;
     });
   }
