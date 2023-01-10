@@ -34,7 +34,7 @@ As you can see in the [pom.xml](https://github.com/nimblegeek/DemoWebApp/blob/50
 
 ``` ng serve open```
 
-NB: project still in progress. Need to update the club list component and the frontend to enable:
+⚠️ NB: project still in progress. Need to update the club list component and the frontend to enable:
 
 - Visualize list of clubs
 - Add new club
