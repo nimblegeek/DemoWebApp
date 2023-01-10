@@ -22,6 +22,12 @@ public class Club {
         this.email = email;
     }
 
+    public Club(String name, String s) {
+
+        email = null;
+        this.name = null;
+    }
+
     public Long getId() {
         return id;
     }
