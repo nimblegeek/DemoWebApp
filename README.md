@@ -28,6 +28,12 @@ As you can see in the [pom.xml](https://github.com/nimblegeek/DemoWebApp/blob/50
 </dependency>
 ```
 
+# How To Run 
+- Clone this project and navigate to demoWebApp -> angularclient 
+- Run the below command in your favorite terminal window
+
+``` ng serve open```
+
 # Cudos 🙏 ⭐
 This web project has been created based on code and knowledge retrieved [from this article](https://www.baeldung.com/spring-boot-angular-web).
 Thank you [Baeldung](https://www.baeldung.com/) for a great tutorial. 
