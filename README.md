@@ -32,7 +32,7 @@ As you can see in the [pom.xml](https://github.com/nimblegeek/DemoWebApp/blob/50
 - Clone this project and navigate to demoWebApp -> angularclient 
 - Run the below command in your favorite terminal window
 
-``` ng serve open```
+``` ng serve --open```
 
 ⚠️ NB: project still in progress. Need to update the club list component and the frontend to enable:
 
